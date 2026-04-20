@@ -4,10 +4,12 @@
 const TasksCard = ({task}) => {
     const {title, description} = task;
         return (
-            <Card variant="primary" className="w-[400px]">
+            <div className="bg-purple-100 w-[780px] mx-auto">
+                <div className="px-[100px] py-4 mt-6">
+            <Card variant="primary" className="border-3 border-purple-600 w-xl">
                 {/* <CircleDollar aria-label="Dollar sign icon" className="text-primary size-6" role="img" /> */}
                 <Card.Header>
-                    <Card.Title>{title}</Card.Title>
+                    <Card.Title className="text-2xl mb-2">{title}</Card.Title>
                     <Card.Description>
                         Visit the Acme Creator Hub to sign up today and start earning credits from your fans and
                         followers.
@@ -25,6 +27,8 @@ const TasksCard = ({task}) => {
                     </Link>
                 </Card.Footer>
             </Card>
+            </div>
+            </div>
         );
     }
 
