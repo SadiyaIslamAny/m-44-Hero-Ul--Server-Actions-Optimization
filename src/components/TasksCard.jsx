@@ -11,8 +11,7 @@ const TasksCard = ({task}) => {
                 <Card.Header>
                     <Card.Title className="text-2xl mb-2">{title}</Card.Title>
                     <Card.Description>
-                        Visit the Acme Creator Hub to sign up today and start earning credits from your fans and
-                        followers.
+                       {description}
                     </Card.Description>
                 </Card.Header>
                 <Card.Footer>
