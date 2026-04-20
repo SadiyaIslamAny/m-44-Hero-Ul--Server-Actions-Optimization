@@ -1,0 +1,42 @@
+  [
+  {
+    "id": 1,
+    "title": "Learn Next.js basics",
+    "description": "Understand routing, layouts, and components",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-22"
+  },
+  {
+    "id": 2,
+    "title": "Practice data fetching",
+    "description": "Use fetch with no-store and force-cache",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-23"
+  },
+  {
+    "id": 3,
+    "title": "Build todo UI",
+    "description": "Create task card and add button component",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-24"
+  },
+  {
+    "id": 4,
+    "title": "Connect API",
+    "description": "Fetch tasks from json-server",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 5,
+    "title": "Deploy project",
+    "description": "Deploy Next.js project to Vercel",
+    "status": "completed",
+    "priority": "low",
+    "dueDate": "2026-04-26"
+  }
+]
