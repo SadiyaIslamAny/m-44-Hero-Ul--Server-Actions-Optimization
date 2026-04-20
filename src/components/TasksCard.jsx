@@ -4,7 +4,7 @@
 const TasksCard = ({task}) => {
     const {title, description} = task;
         return (
-            <div className="bg-purple-100 w-[780px] mx-auto">
+            <div className="w-[780px] mx-auto">
                 <div className="px-[100px] py-4 mt-6">
             <Card variant="primary" className="border-3 border-purple-600 w-xl">
                 {/* <CircleDollar aria-label="Dollar sign icon" className="text-primary size-6" role="img" /> */}
