@@ -26,10 +26,8 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <NextThemeProvider>
-          <Navbar></Navbar>
-          <main className="text-center">
-            {children}
-          </main>
+          <Navbar />
+          <main>{children}</main>
         </NextThemeProvider>
 
       </body>
